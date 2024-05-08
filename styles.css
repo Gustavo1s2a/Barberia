@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.header {
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 24px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.barbero {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    width: 250px;
+    text-align: center; /* Centrar el contenido */
+    border-radius: 10px; /* Agregar bordes redondeados */
+}
+
+.barbero h2 {
+    color: #555;
+}
+
+.barbero img {
+    width: 200px;
+    height: 200px; /* Establecer una altura fija */
+    object-fit: cover; /* Mantener la relación de aspecto y cubrir el contenedor */
+    margin-bottom: 10px; /* Espacio inferior entre la imagen y el texto */
+    border-radius: 10px; /* Agregar bordes redondeados a las imágenes */
+}
